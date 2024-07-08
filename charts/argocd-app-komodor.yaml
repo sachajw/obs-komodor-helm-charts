@@ -16,8 +16,8 @@ spec:
       # valueFiles:
       #   - override.yaml
       valuesObject:
-        apiKey: "${APIKEY}"
-        clusterName: "${CLUSTER_NAME}"
+        apiKey: "${KOMODOR_API_KEY}"
+        clusterName: "${KOMODOR_CLUSTER_NAME}"
   destination:
     server: "https://kubernetes.default.svc"
     namespace: komodor
